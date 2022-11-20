@@ -15,25 +15,9 @@ const routes: Routes = [{
       pathMatch: "full",
       redirectTo: "statistics"
     },
-    { path: 'users-approval', loadChildren: () => import('./users-approval/users-approval.module').then(m => m.UsersApprovalModule) },
-    { path: 'user-rejected', loadChildren: () => import('./user-rejected/users-reject.module').then(m => m.UsersRejectModule) },
-    { path: 'limit-review', loadChildren: () => import('./limit-review/limit-review.module').then(m => m.LimitReviewModule) },
-    { path: 'system-configuration', loadChildren: () => import('./system-configuration/system-configuration.module').then(m => m.SystemConfigurationModule) },
-    { path: 'customer', loadChildren: () => import('./get-customers/get-customers.module').then(m => m.GetCustomersModule) },
     { path: 'statistics', loadChildren: () => import('./statistics/statistics.module').then(m => m.StatisticsModule) },
-    { path: 'bulkon-borading', loadChildren: () => import('./bulk-on-boarding/bulk-on-boarding.module').then(m => m.BulkOnBoardingModule) },
-    {path:'unauthorized', component:UnauthorizedComponent},
-    // { path: 'lockUps', loadChildren: () => import('./look-ups/look-ups.module').then(m => m.LookUpsModule) },
-    // { path: 'carBrand', loadChildren: () => import('./lookups/car-brand/car-brand.module').then(m => m.CarBrandModule) },
-    // { path: 'governorates', loadChildren: () => import('./lookups/governorates/governorates.module').then(m => m.GovernoratesModule) },
-    // { path: 'employmentTypes', loadChildren: () => import('./lookups/employment-types/employment-types.module').then(m => m.EmploymentTypesModule) },
-    // { path: 'clubIds', loadChildren: () => import('./lookups/club-ids/club-ids.module').then(m => m.ClubIdsModule) },
-
-    // { path: 'question-bank', component: QuestionBankComponent },
-    // { path: 'wizard', component: WizardComponent },
-    // { path: 'dynamic-form', component: DynamicFormComponent },
-    {path:'test-alert',component:NotifierComponent}
-  ]
+     {path:'unauthorized', component:UnauthorizedComponent}, 
+     ]
 },
 ];
 
