@@ -10,6 +10,10 @@ export class UsersService {
   constructor(private _API: APIService) { }
 
   // Get All Users List
+  getStatisticsList(){
+    return this._API.doGet(UrlEndpoints.GET_StatisticsList)
+  }
+
   getWaitingRiskApprovalList(){
     return this._API.doGet(UrlEndpoints.GET_WaitingRiskApprovalList)
   }

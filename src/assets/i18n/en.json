@@ -12,10 +12,12 @@
     "LINK7" :"Configuration Rejection",
     "LINK8" :"Configuration Professions",
     "LINK9" :"Configuration Core",
-    "Link10":"Bulk on Borading"
+    "Link10":"Bulk on Borading",
+    "Statistics":"Statistics"
   },
   "USERlISTTABLE":{
     "COL1":"Name",
+    "counter":"Counter",
     "COL2":"Email",
     "COL3":"Phone Number",
     "COL4":"National Id",

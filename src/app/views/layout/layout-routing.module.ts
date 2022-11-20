@@ -13,13 +13,14 @@ const routes: Routes = [{
     {
       path: "",
       pathMatch: "full",
-      redirectTo: "users-approval"
+      redirectTo: "statistics"
     },
     { path: 'users-approval', loadChildren: () => import('./users-approval/users-approval.module').then(m => m.UsersApprovalModule) },
     { path: 'user-rejected', loadChildren: () => import('./user-rejected/users-reject.module').then(m => m.UsersRejectModule) },
     { path: 'limit-review', loadChildren: () => import('./limit-review/limit-review.module').then(m => m.LimitReviewModule) },
     { path: 'system-configuration', loadChildren: () => import('./system-configuration/system-configuration.module').then(m => m.SystemConfigurationModule) },
     { path: 'customer', loadChildren: () => import('./get-customers/get-customers.module').then(m => m.GetCustomersModule) },
+    { path: 'statistics', loadChildren: () => import('./statistics/statistics.module').then(m => m.StatisticsModule) },
     { path: 'bulkon-borading', loadChildren: () => import('./bulk-on-boarding/bulk-on-boarding.module').then(m => m.BulkOnBoardingModule) },
     {path:'unauthorized', component:UnauthorizedComponent},
     // { path: 'lockUps', loadChildren: () => import('./look-ups/look-ups.module').then(m => m.LookUpsModule) },

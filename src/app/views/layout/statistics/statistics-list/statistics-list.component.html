@@ -1,0 +1,231 @@
+<div class="row">
+    <div class="col-lg-12">
+      <div class="card">
+        <div class="card-body">
+         <button *ngIf="showTable" class="btn btn-success mb-3" (click)="exportexcel()">{{ "USERITEMINFO.ExportExcel" | translate }} <i class="fas fa-file-excel"></i></button>
+  
+          <div class="table-responsive">
+            <p *ngIf="!showTable" class="alert alert-warning text-center">data is empty</p>
+            <table id="excel-table" class="table align-middle table-nowrap table-hover">
+              <thead class="table-light">
+                <tr>
+                  <th scope="col" style="width: 70px">#</th>
+                  <th scope="col">
+                    {{ "USERlISTTABLE.COL1" | translate }}
+                  </th>
+                  <th scope="col">
+                    {{ "USERlISTTABLE.counter" | translate }}
+                  </th>
+                  
+                </tr>
+              </thead>
+              <tbody>
+                <tr >
+                  <td>
+                    <div class="avatar-xs">
+                      <span class="avatar-title rounded-circle">
+                        <img [src]="" alt="" />
+                      </span>
+                    </div>
+                  </td>
+                  <td>  Active Clients Count </td>
+                  <td>{{usersList.activeClientsCount}}</td>
+                </tr>
+                <tr >
+                    <td>
+                      <div class="avatar-xs">
+                        <span class="avatar-title rounded-circle">
+                          <img [src]="" alt="" />
+                        </span>
+                      </div>
+                    </td>
+                    <td>  onboarding Process Count </td>
+                    <td>{{usersList.onboardingProcessCount}}</td>
+                  </tr>
+                  <tr >
+                    <td>
+                      <div class="avatar-xs">
+                        <span class="avatar-title rounded-circle">
+                          <img [src]="" alt="" />
+                        </span>
+                      </div>
+                    </td>
+                    <td>  waiting For Activation Count </td>
+                    <td>{{usersList.waitingForActivationCount}}</td>
+                  </tr>
+                  <tr >
+                    <td>
+                      <div class="avatar-xs">
+                        <span class="avatar-title rounded-circle">
+                          <img [src]="" alt="" />
+                        </span>
+                      </div>
+                    </td>
+                    <td>  waiting Risk Approval Count</td>
+                    <td>{{usersList.waitingRiskApprovalCount}}</td>
+                  </tr>
+                  <tr >
+                    <td>
+                      <div class="avatar-xs">
+                        <span class="avatar-title rounded-circle">
+                          <img [src]="" alt="" />
+                        </span>
+                      </div>
+                    </td>
+                    <td>  force Change Password Count </td>
+                    <td>{{usersList.forceChangePasswordCount}}</td>
+                  </tr>
+                  <tr >
+                    <td>
+                      <div class="avatar-xs">
+                        <span class="avatar-title rounded-circle">
+                          <img [src]="" alt="" />
+                        </span>
+                      </div>
+                    </td>
+                    <td>  Manual Onboard Count </td>
+                    <td>{{usersList.manualOnboardCount}}</td>
+                  </tr>
+                  <tr >
+                    <td>
+                      <div class="avatar-xs">
+                        <span class="avatar-title rounded-circle">
+                          <img [src]="" alt="" />
+                        </span>
+                      </div>
+                    </td>
+                    <td>  manual Onboard Risk ApproveCount </td>
+                    <td>{{usersList.manualOnboardRiskApproveCount}}</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="avatar-xs">
+                        <span class="avatar-title rounded-circle">
+                          <img [src]="" alt="" />
+                        </span>
+                      </div>
+                    </td>
+                    <td>  rejected Age Over Count </td>
+                    <td>{{usersList.rejectedAgeOverCount}}</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="avatar-xs">
+                        <span class="avatar-title rounded-circle">
+                          <img [src]="" alt="" />
+                        </span>
+                      </div>
+                    </td>
+                    <td>  rejected Area Count</td>
+                    <td>{{usersList.rejectedAreaCount}}</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="avatar-xs">
+                        <span class="avatar-title rounded-circle">
+                          <img [src]="" alt="" />
+                        </span>
+                      </div>
+                    </td>
+                    <td>  rejected Profession Count </td>
+                    <td>{{usersList.rejectedProfessionCount}}</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="avatar-xs">
+                        <span class="avatar-title rounded-circle">
+                          <img [src]="" alt="" />
+                        </span>
+                      </div>
+                    </td>
+                    <td>  rejected National Id Count </td>
+                    <td>{{usersList.rejectedNationalIdCount}}</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="avatar-xs">
+                        <span class="avatar-title rounded-circle">
+                          <img [src]="" alt="" />
+                        </span>
+                      </div>
+                    </td>
+                    <td>  rejected Human Count </td>
+                    <td>{{usersList.rejectedHumanCount}}</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="avatar-xs">
+                        <span class="avatar-title rounded-circle">
+                          <img [src]="" alt="" />
+                        </span>
+                      </div>
+                    </td>
+                    <td>  rejected Selfy Count </td>
+                    <td>{{usersList.rejectedSelfyCount}}</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="avatar-xs">
+                        <span class="avatar-title rounded-circle">
+                          <img [src]="" alt="" />
+                        </span>
+                      </div>
+                    </td>
+                    <td>  rejected Age Under Count </td>
+                    <td>{{usersList.rejectedAgeUnderCount}}</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="avatar-xs">
+                        <span class="avatar-title rounded-circle">
+                          <img [src]="" alt="" />
+                        </span>
+                      </div>
+                    </td>
+                    <td>  rejected Sales Count </td>
+                    <td>{{usersList.rejectedSalesCount}}</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="avatar-xs">
+                        <span class="avatar-title rounded-circle">
+                          <img [src]="" alt="" />
+                        </span>
+                      </div>
+                    </td>
+                    <td>  rejected Risk Count </td>
+                    <td>{{usersList.rejectedRiskCount}}</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="avatar-xs">
+                        <span class="avatar-title rounded-circle">
+                          <img [src]="" alt="" />
+                        </span>
+                      </div>
+                    </td>
+                    <td>  rejected IScore Count</td>
+                    <td>{{usersList.rejectedIScoreCount}}</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="avatar-xs">
+                        <span class="avatar-title rounded-circle">
+                          <img [src]="" alt="" />
+                        </span>
+                      </div>
+                    </td>
+                    <td>  soft Reject Count </td>
+                    <td>{{usersList.softRejectCount}}</td>
+                  </tr>
+              </tbody>
+            </table>
+          </div>
+  
+          
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  

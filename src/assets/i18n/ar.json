@@ -12,10 +12,12 @@
     "LINK7" :"اسباب الرفض",
     "LINK8" :"الوظائف",
     "LINK9" :"الاعدادات الاساسية",
-    "Link10":"Bulk on Borading"
+    "Link10":"Bulk on Borading",
+    "Statistics":"الإحصائيات"
   },
   "USERlISTTABLE":{
     "COL1":"الاسم",
+    "counter":"العدد",
     "COL2":"البريد الالكتروني",
     "COL3":"رقم الهاتف",
     "COL4":"الرقم القومي",

@@ -7,6 +7,10 @@ export abstract class UrlEndpoints {
   // Order
   static readonly GET_TEST: string = 'test';
 
+
+
+  static readonly GET_StatisticsList: string = 'api/Statistics/Stats';
+  static readonly POST_TOKEN_AUTH: string = "api/Auth/ManagementLogin";
   // USer List
   static readonly GET_WaitingRiskApprovalList: string = 'api/Risk/ProfilePlus';
   static readonly GET_ReviwList: string = 'api/Risk/ReviewProfilePlus';
@@ -74,7 +78,7 @@ static readonly post_UpdateSystemConfiguratioRejectionReason: string = 'api/Syst
  static readonly GET_EmploymentTypes: string = 'api/LookUps/EmploymentTypes';
 
   // POST_TOKEN_AUTH:
-  static readonly POST_TOKEN_AUTH: string = "api/Auth/Risklogin";
+  //static readonly POST_TOKEN_AUTH: string = "api/Auth/Risklogin";
 
   // Rating (questions)
   static readonly GET_QUESTIONS: string = 'services/app/Questions/GetAll';
