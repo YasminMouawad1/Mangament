@@ -21,6 +21,10 @@ export class UsersService {
     return this._API.doGet(UrlEndpoints.GET_OnboardingProcessClientsList)
   }
 
+  getWaitingForActivation(){
+    return this._API.doGet(UrlEndpoints.GET_WaitingForActivation)
+  }
+
   getRejectResponse(){
     return this._API.doGet(UrlEndpoints.GET_RejectResponse)
   }

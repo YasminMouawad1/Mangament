@@ -15,7 +15,8 @@
     "Link10":"Bulk on Borading",
     "Statistics":"الإحصائيات",
     "activeClients":"الطلبات النشطة",
-    "onboardingProcess":"Onboarding Process"
+    "onboardingProcess":"Onboarding Process",
+    "waitingActivation":"انتظار التفعيل"
   },
   "USERlISTTABLE":{
     "COL1":"الاسم",
