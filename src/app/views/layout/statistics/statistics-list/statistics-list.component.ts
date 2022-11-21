@@ -29,17 +29,12 @@ export class StatisticsListComponent implements OnInit {
           this.usersList = res.data ;
           this.showTable = this.usersList ==  null ?false : true;
     
-
-          console.log(this.usersList.activeClientsCount)    //error
-          console.log(res.data.activeClientsCount)          //13 true
           this._spinnerService.requestEnded(); 
   
   
       })}
   
-      view(user:any){
-       user.isReviwed = false; 
-      }
+       
   
       exportexcel(): void
     { 

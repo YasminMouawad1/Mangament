@@ -10,17 +10,19 @@
   <ng-container>
    
     <li>
-      <a
-        routerLinkActive="active"
-        class="side-nav-link-ref"
-        routerLink="statistics" 
-      >
-        <i class="fas fa-users"></i>
-        <span>
-          {{ "SIDEMNUE.Statistics" | translate }}
-        </span>
+      <a routerLinkActive="active"  class="side-nav-link-ref" routerLink="statistics">   
+        <i class="fas fa-chart-line"></i>
+        <span> {{ "SIDEMNUE.Statistics" | translate }} </span>
+      </a>
+    </li>
+
+    <li>
+      <a routerLinkActive="active"  class="side-nav-link-ref" routerLink="active-clients">   
+        <i class="fas fa-user-check"></i>
+        <span> {{ "SIDEMNUE.activeClients" | translate }} </span>
       </a>
     </li> 
+
  </ng-container>
     </ul>
   </div>

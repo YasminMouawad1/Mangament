@@ -16,6 +16,7 @@ const routes: Routes = [{
       redirectTo: "statistics"
     },
     { path: 'statistics', loadChildren: () => import('./statistics/statistics.module').then(m => m.StatisticsModule) },
+    { path: 'active-clients', loadChildren: () => import('./active-clients/active-clients.module').then(m => m.ActiveClientsModule) },
      {path:'unauthorized', component:UnauthorizedComponent}, 
      ]
 },

@@ -13,7 +13,8 @@
     "LINK8" :"الوظائف",
     "LINK9" :"الاعدادات الاساسية",
     "Link10":"Bulk on Borading",
-    "Statistics":"الإحصائيات"
+    "Statistics":"الإحصائيات",
+    "activeClients":"الطلبات النشطة"
   },
   "USERlISTTABLE":{
     "COL1":"الاسم",
@@ -24,7 +25,8 @@
     "COL5":"العمر",
     "COL6":"العنوان",
     "COL7":"تاثير",
-    "COL8":"تعليق"
+    "COL8":"تعليق",
+    "submitDate":"تاريخ النشر"
   }
   ,
   "USERITEMINFO":{

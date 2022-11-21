@@ -16,7 +16,9 @@
                   <th scope="col">
                     {{ "USERlISTTABLE.counter" | translate }}
                   </th>
-                  
+                  <th scope="col">
+                    {{ "USERlISTTABLE.COL7" | translate }}
+                  </th>
                 </tr>
               </thead>
               <tbody>
@@ -30,6 +32,17 @@
                   </td>
                   <td>  Active Clients Count </td>
                   <td>{{usersList.activeClientsCount}}</td>
+                  <td>
+                    <ul class="list-inline font-size-20 contact-links mb-0"> 
+                      <li class="list-inline-item px-2">
+                        <a
+                          class="action-icon text-secondary"
+                          routerLink="../active-clients"
+                          ngbTooltip="Profile" 
+                          ><i class="mdi mdi-eye font-size-18" style="color:#556ee6"></i></a>
+                      </li>
+                    </ul>
+                  </td>
                 </tr>
                 <tr >
                     <td>
@@ -41,6 +54,17 @@
                     </td>
                     <td>  onboarding Process Count </td>
                     <td>{{usersList.onboardingProcessCount}}</td>
+                    <td>
+                      <ul class="list-inline font-size-20 contact-links mb-0"> 
+                        <li class="list-inline-item px-2">
+                          <a
+                            class="action-icon text-secondary"
+                            routerLink="user-item"
+                            ngbTooltip="Profile" 
+                            ><i class="mdi mdi-eye font-size-18" style="color:#556ee6"></i></a>
+                        </li>
+                      </ul>
+                    </td>
                   </tr>
                   <tr >
                     <td>
@@ -52,6 +76,17 @@
                     </td>
                     <td>  waiting For Activation Count </td>
                     <td>{{usersList.waitingForActivationCount}}</td>
+                    <td>
+                      <ul class="list-inline font-size-20 contact-links mb-0"> 
+                        <li class="list-inline-item px-2">
+                          <a
+                            class="action-icon text-secondary"
+                            routerLink="user-item"
+                            ngbTooltip="Profile" 
+                            ><i class="mdi mdi-eye font-size-18" style="color:#556ee6"></i></a>
+                        </li>
+                      </ul>
+                    </td>
                   </tr>
                   <tr >
                     <td>
@@ -63,6 +98,17 @@
                     </td>
                     <td>  waiting Risk Approval Count</td>
                     <td>{{usersList.waitingRiskApprovalCount}}</td>
+                    <td>
+                      <ul class="list-inline font-size-20 contact-links mb-0"> 
+                        <li class="list-inline-item px-2">
+                          <a
+                            class="action-icon text-secondary"
+                            routerLink="user-item"
+                            ngbTooltip="Profile" 
+                            ><i class="mdi mdi-eye font-size-18" style="color:#556ee6"></i></a>
+                        </li>
+                      </ul>
+                    </td>
                   </tr>
                   <tr >
                     <td>
@@ -74,6 +120,17 @@
                     </td>
                     <td>  force Change Password Count </td>
                     <td>{{usersList.forceChangePasswordCount}}</td>
+                    <td>
+                      <ul class="list-inline font-size-20 contact-links mb-0"> 
+                        <li class="list-inline-item px-2">
+                          <a
+                            class="action-icon text-secondary"
+                            routerLink="user-item"
+                            ngbTooltip="Profile" 
+                            ><i class="mdi mdi-eye font-size-18" style="color:#556ee6"></i></a>
+                        </li>
+                      </ul>
+                    </td>
                   </tr>
                   <tr >
                     <td>
@@ -85,6 +142,17 @@
                     </td>
                     <td>  Manual Onboard Count </td>
                     <td>{{usersList.manualOnboardCount}}</td>
+                    <td>
+                      <ul class="list-inline font-size-20 contact-links mb-0"> 
+                        <li class="list-inline-item px-2">
+                          <a
+                            class="action-icon text-secondary"
+                            routerLink="user-item"
+                            ngbTooltip="Profile" 
+                            ><i class="mdi mdi-eye font-size-18" style="color:#556ee6"></i></a>
+                        </li>
+                      </ul>
+                    </td>
                   </tr>
                   <tr >
                     <td>
@@ -96,6 +164,17 @@
                     </td>
                     <td>  manual Onboard Risk ApproveCount </td>
                     <td>{{usersList.manualOnboardRiskApproveCount}}</td>
+                    <td>
+                      <ul class="list-inline font-size-20 contact-links mb-0"> 
+                        <li class="list-inline-item px-2">
+                          <a
+                            class="action-icon text-secondary"
+                            routerLink="user-item"
+                            ngbTooltip="Profile" 
+                            ><i class="mdi mdi-eye font-size-18" style="color:#556ee6"></i></a>
+                        </li>
+                      </ul>
+                    </td>
                   </tr>
                   <tr>
                     <td>
@@ -107,6 +186,17 @@
                     </td>
                     <td>  rejected Age Over Count </td>
                     <td>{{usersList.rejectedAgeOverCount}}</td>
+                    <td>
+                      <ul class="list-inline font-size-20 contact-links mb-0"> 
+                        <li class="list-inline-item px-2">
+                          <a
+                            class="action-icon text-secondary"
+                            routerLink="user-item"
+                            ngbTooltip="Profile" 
+                            ><i class="mdi mdi-eye font-size-18" style="color:#556ee6"></i></a>
+                        </li>
+                      </ul>
+                    </td>
                   </tr>
                   <tr>
                     <td>
@@ -118,6 +208,17 @@
                     </td>
                     <td>  rejected Area Count</td>
                     <td>{{usersList.rejectedAreaCount}}</td>
+                    <td>
+                      <ul class="list-inline font-size-20 contact-links mb-0"> 
+                        <li class="list-inline-item px-2">
+                          <a
+                            class="action-icon text-secondary"
+                            routerLink="user-item"
+                            ngbTooltip="Profile" 
+                            ><i class="mdi mdi-eye font-size-18" style="color:#556ee6"></i></a>
+                        </li>
+                      </ul>
+                    </td>
                   </tr>
                   <tr>
                     <td>
@@ -129,6 +230,17 @@
                     </td>
                     <td>  rejected Profession Count </td>
                     <td>{{usersList.rejectedProfessionCount}}</td>
+                    <td>
+                      <ul class="list-inline font-size-20 contact-links mb-0"> 
+                        <li class="list-inline-item px-2">
+                          <a
+                            class="action-icon text-secondary"
+                            routerLink="user-item"
+                            ngbTooltip="Profile" 
+                            ><i class="mdi mdi-eye font-size-18" style="color:#556ee6"></i></a>
+                        </li>
+                      </ul>
+                    </td>
                   </tr>
                   <tr>
                     <td>
@@ -140,6 +252,17 @@
                     </td>
                     <td>  rejected National Id Count </td>
                     <td>{{usersList.rejectedNationalIdCount}}</td>
+                    <td>
+                      <ul class="list-inline font-size-20 contact-links mb-0"> 
+                        <li class="list-inline-item px-2">
+                          <a
+                            class="action-icon text-secondary"
+                            routerLink="user-item"
+                            ngbTooltip="Profile" 
+                            ><i class="mdi mdi-eye font-size-18" style="color:#556ee6"></i></a>
+                        </li>
+                      </ul>
+                    </td>
                   </tr>
                   <tr>
                     <td>
@@ -151,6 +274,17 @@
                     </td>
                     <td>  rejected Human Count </td>
                     <td>{{usersList.rejectedHumanCount}}</td>
+                    <td>
+                      <ul class="list-inline font-size-20 contact-links mb-0"> 
+                        <li class="list-inline-item px-2">
+                          <a
+                            class="action-icon text-secondary"
+                            routerLink="user-item"
+                            ngbTooltip="Profile" 
+                            ><i class="mdi mdi-eye font-size-18" style="color:#556ee6"></i></a>
+                        </li>
+                      </ul>
+                    </td>
                   </tr>
                   <tr>
                     <td>
@@ -162,6 +296,17 @@
                     </td>
                     <td>  rejected Selfy Count </td>
                     <td>{{usersList.rejectedSelfyCount}}</td>
+                    <td>
+                      <ul class="list-inline font-size-20 contact-links mb-0"> 
+                        <li class="list-inline-item px-2">
+                          <a
+                            class="action-icon text-secondary"
+                            routerLink="user-item"
+                            ngbTooltip="Profile" 
+                            ><i class="mdi mdi-eye font-size-18" style="color:#556ee6"></i></a>
+                        </li>
+                      </ul>
+                    </td>
                   </tr>
                   <tr>
                     <td>
@@ -173,6 +318,17 @@
                     </td>
                     <td>  rejected Age Under Count </td>
                     <td>{{usersList.rejectedAgeUnderCount}}</td>
+                    <td>
+                      <ul class="list-inline font-size-20 contact-links mb-0"> 
+                        <li class="list-inline-item px-2">
+                          <a
+                            class="action-icon text-secondary"
+                            routerLink="user-item"
+                            ngbTooltip="Profile" 
+                            ><i class="mdi mdi-eye font-size-18" style="color:#556ee6"></i></a>
+                        </li>
+                      </ul>
+                    </td>
                   </tr>
                   <tr>
                     <td>
@@ -184,6 +340,17 @@
                     </td>
                     <td>  rejected Sales Count </td>
                     <td>{{usersList.rejectedSalesCount}}</td>
+                    <td>
+                      <ul class="list-inline font-size-20 contact-links mb-0"> 
+                        <li class="list-inline-item px-2">
+                          <a
+                            class="action-icon text-secondary"
+                            routerLink="user-item"
+                            ngbTooltip="Profile" 
+                            ><i class="mdi mdi-eye font-size-18" style="color:#556ee6"></i></a>
+                        </li>
+                      </ul>
+                    </td>
                   </tr>
                   <tr>
                     <td>
@@ -195,6 +362,17 @@
                     </td>
                     <td>  rejected Risk Count </td>
                     <td>{{usersList.rejectedRiskCount}}</td>
+                    <td>
+                      <ul class="list-inline font-size-20 contact-links mb-0"> 
+                        <li class="list-inline-item px-2">
+                          <a
+                            class="action-icon text-secondary"
+                            routerLink="user-item"
+                            ngbTooltip="Profile" 
+                            ><i class="mdi mdi-eye font-size-18" style="color:#556ee6"></i></a>
+                        </li>
+                      </ul>
+                    </td>
                   </tr>
                   <tr>
                     <td>
@@ -206,6 +384,17 @@
                     </td>
                     <td>  rejected IScore Count</td>
                     <td>{{usersList.rejectedIScoreCount}}</td>
+                    <td>
+                      <ul class="list-inline font-size-20 contact-links mb-0"> 
+                        <li class="list-inline-item px-2">
+                          <a
+                            class="action-icon text-secondary"
+                            routerLink="user-item"
+                            ngbTooltip="Profile" 
+                            ><i class="mdi mdi-eye font-size-18" style="color:#556ee6"></i></a>
+                        </li>
+                      </ul>
+                    </td>
                   </tr>
                   <tr>
                     <td>
@@ -217,6 +406,17 @@
                     </td>
                     <td>  soft Reject Count </td>
                     <td>{{usersList.softRejectCount}}</td>
+                    <td>
+                      <ul class="list-inline font-size-20 contact-links mb-0"> 
+                        <li class="list-inline-item px-2">
+                          <a
+                            class="action-icon text-secondary"
+                            routerLink="user-item"
+                            ngbTooltip="Profile" 
+                            ><i class="mdi mdi-eye font-size-18" style="color:#556ee6"></i></a>
+                        </li>
+                      </ul>
+                    </td>
                   </tr>
               </tbody>
             </table>

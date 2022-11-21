@@ -13,7 +13,9 @@
     "LINK8" :"Configuration Professions",
     "LINK9" :"Configuration Core",
     "Link10":"Bulk on Borading",
-    "Statistics":"Statistics"
+    "Statistics":"Statistics",
+    "activeClients":"Active Clients"
+
   },
   "USERlISTTABLE":{
     "COL1":"Name",
@@ -24,7 +26,8 @@
     "COL5":"Age",
     "COL6":"Address",
     "COL7":"Action",
-    "COL8":"Rejection Comment"
+    "COL8":"Rejection Comment",
+    "submitDate":"Submit Date"
 
   }
   ,
