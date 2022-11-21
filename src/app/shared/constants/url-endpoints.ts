@@ -11,6 +11,7 @@ export abstract class UrlEndpoints {
   static readonly POST_TOKEN_AUTH: string = "api/Auth/ManagementLogin";
   static readonly GET_StatisticsList: string = 'api/Statistics/Stats';
   static readonly GET_ActiveClientsList: string = 'api/Statistics/ActiveClients';
+  static readonly GET_OnboardingProcessClientsList: string = 'api/Statistics/OnboardingProcessClients';
   
 
   static readonly GET_RejectResponse: string = 'api/Risk/RejectResponse';

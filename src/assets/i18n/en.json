@@ -14,7 +14,8 @@
     "LINK9" :"Configuration Core",
     "Link10":"Bulk on Borading",
     "Statistics":"Statistics",
-    "activeClients":"Active Clients"
+    "activeClients":"Active Clients",
+    "onboardingProcess":"Onboarding Process"
 
   },
   "USERlISTTABLE":{

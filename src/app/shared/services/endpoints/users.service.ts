@@ -17,6 +17,10 @@ export class UsersService {
     return this._API.doGet(UrlEndpoints.GET_ActiveClientsList)
   }
 
+  getOnboardingProcessClients(){
+    return this._API.doGet(UrlEndpoints.GET_OnboardingProcessClientsList)
+  }
+
   getRejectResponse(){
     return this._API.doGet(UrlEndpoints.GET_RejectResponse)
   }

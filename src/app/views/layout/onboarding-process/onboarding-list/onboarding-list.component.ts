@@ -6,11 +6,11 @@ import * as XLSX from 'xlsx';
 
 
 @Component({
-  selector: 'app-active-clients-list',
-  templateUrl: './active-clients-list.component.html',
-  styleUrls: ['./active-clients-list.component.scss']
+  selector: 'app-onboarding-list',
+  templateUrl: './onboarding-list.component.html',
+  styleUrls: ['./onboarding-list.component.scss']
 })
-export class ActiveClientsListComponent implements OnInit {
+export class OnboardingListComponent implements OnInit {
 
   usersList: any[] = [];
 
@@ -24,17 +24,15 @@ export class ActiveClientsListComponent implements OnInit {
 
   ngOnInit() {
   this._spinnerService.requestStarted();
-    this._userService.getActiveClientsList().subscribe(res => {
+    this._userService.getOnboardingProcessClients().subscribe(res => {
      
       if(res.data != null)
         this.usersList = res.data ;
         this.showTable = this.usersList.length == 0 ?false : true;
  
+        console.log(res.data)
         this._spinnerService.requestEnded(); 
-
-
-          //  this.personalImg = this._sanitizer.bypassSecurityTrustResourceUrl('data:image/jpg;base64,'
-          //  + res.data.result.personalImage);
+ 
 
 
     })}
@@ -54,7 +52,6 @@ export class ActiveClientsListComponent implements OnInit {
     XLSX.writeFile(wb, 'ExcelSheet.xlsx');
  
   }
-
 
 
 }

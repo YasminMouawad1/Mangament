@@ -14,7 +14,8 @@
     "LINK9" :"الاعدادات الاساسية",
     "Link10":"Bulk on Borading",
     "Statistics":"الإحصائيات",
-    "activeClients":"الطلبات النشطة"
+    "activeClients":"الطلبات النشطة",
+    "onboardingProcess":"Onboarding Process"
   },
   "USERlISTTABLE":{
     "COL1":"الاسم",
