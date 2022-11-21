@@ -16,7 +16,9 @@
     "Statistics":"الإحصائيات",
     "activeClients":"الطلبات النشطة",
     "onboardingProcess":"Onboarding Process",
-    "waitingActivation":"انتظار التفعيل"
+    "waitingActivation":"انتظار التفعيل",
+    "waitingApproval":"انتظار قبول المخاطرة"
+
   },
   "USERlISTTABLE":{
     "COL1":"الاسم",

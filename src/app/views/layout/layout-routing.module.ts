@@ -19,6 +19,7 @@ const routes: Routes = [{
     { path: 'active-clients', loadChildren: () => import('./active-clients/active-clients.module').then(m => m.ActiveClientsModule) },
     { path: 'onboarding-process', loadChildren: () => import('./onboarding-process/onboarding-process.module').then(m => m.OnboardingProcessModule) },
     { path: 'waiting-activation', loadChildren: () => import('./waiting-activation/waiting-activation.module').then(m => m.WaitingActivationModule) },
+    { path: 'waiting-riskApproval', loadChildren: () => import('./waiting-risk-approval/waiting-risk-approval.module').then(m => m.WaitingRiskApprovalModule) },
      {path:'unauthorized', component:UnauthorizedComponent}, 
      ]
 },

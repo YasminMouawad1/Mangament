@@ -25,6 +25,11 @@ export class UsersService {
     return this._API.doGet(UrlEndpoints.GET_WaitingForActivation)
   }
 
+
+  getWaitingRiskApprval(){
+    return this._API.doGet(UrlEndpoints.GET_WaitingRiskApproval)
+  }
+
   getRejectResponse(){
     return this._API.doGet(UrlEndpoints.GET_RejectResponse)
   }

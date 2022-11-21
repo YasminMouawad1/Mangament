@@ -13,6 +13,7 @@ export abstract class UrlEndpoints {
   static readonly GET_ActiveClientsList: string = 'api/Statistics/ActiveClients';
   static readonly GET_OnboardingProcessClientsList: string = 'api/Statistics/OnboardingProcessClients';
   static readonly GET_WaitingForActivation: string = 'api/Statistics/WaitingForActivationClients';
+  static readonly GET_WaitingRiskApproval: string = 'api/Statistics/WaitingRiskApprovalClients';
   
   
 

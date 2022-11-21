@@ -16,7 +16,8 @@
     "Statistics":"Statistics",
     "activeClients":"Active Clients",
     "onboardingProcess":"Onboarding Process",
-    "waitingActivation":"waiting Activation"
+    "waitingActivation":"waiting Activation",
+    "waitingApproval":"waiting Risk Approval"
 
   },
   "USERlISTTABLE":{
